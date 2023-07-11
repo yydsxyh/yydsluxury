@@ -1,0 +1,127 @@
+---------------------------------------------------------------
+[ 2023-07-07T21:06:28+08:00 ] ::1 ::1 GET /
+[ info ] info.test/ [运行时间：0.089015s][吞吐率：11.23req/s] [内存消耗：1,782.20kb] [文件加载：44]
+[ info ] [ LANG ] /Users/lambor/Desktop/code/info/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'info.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/lambor/Desktop/code/info/app/home/controller/Index.php ]
+[ info ] [ VIEW ] /Users/lambor/Desktop/code/info/app/home/view/index/index.html [ array (
+  0 => 'sys',
+  1 => 'action',
+  2 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-07T21:11:00+08:00 ] ::1 ::1 GET /
+[ info ] info.test/ [运行时间：0.056474s][吞吐率：17.71req/s] [内存消耗：1,782.36kb] [文件加载：44]
+[ info ] [ LANG ] /Users/lambor/Desktop/code/info/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'info.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/lambor/Desktop/code/info/app/home/controller/Index.php ]
+[ info ] [ VIEW ] /Users/lambor/Desktop/code/info/app/home/view/index/index.html [ array (
+  0 => 'sys',
+  1 => 'action',
+  2 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-07T21:11:27+08:00 ] ::1 ::1 GET /
+[ info ] info.test/ [运行时间：0.056010s][吞吐率：17.85req/s] [内存消耗：1,782.36kb] [文件加载：44]
+[ info ] [ LANG ] /Users/lambor/Desktop/code/info/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'info.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/lambor/Desktop/code/info/app/home/controller/Index.php ]
+[ info ] [ VIEW ] /Users/lambor/Desktop/code/info/app/home/view/index/index.html [ array (
+  0 => 'sys',
+  1 => 'action',
+  2 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-07T21:11:44+08:00 ] ::1 ::1 GET /
+[ info ] info.test/ [运行时间：0.041910s][吞吐率：23.86req/s] [内存消耗：1,782.36kb] [文件加载：44]
+[ info ] [ LANG ] /Users/lambor/Desktop/code/info/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'info.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /Users/lambor/Desktop/code/info/app/home/controller/Index.php ]
+[ info ] [ VIEW ] /Users/lambor/Desktop/code/info/app/home/view/index/index.html [ array (
+  0 => 'sys',
+  1 => 'action',
+  2 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File

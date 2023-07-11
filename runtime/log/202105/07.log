@@ -1,0 +1,86 @@
+---------------------------------------------------------------
+[ 2021-05-07T00:18:40+08:00 ] 10.0.12.14 157.122.167.163 GET /admin/index.php/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/index.html [运行时间：0.016682s][吞吐率：59.95req/s] [内存消耗：2,133.67kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; clear_0.0.1=1; PHPSESSID=4bfa528d53e591ed529d56fa08c33caf; mapKey=%22%22; sites_path=/www/wwwroot; serverType=nginx; order=id%20desc; pro_end=-1; ltd_end=-1; memSize=3789; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; rank=list; record_paste=null; record_paste_type=null; backup_path=/www/backup; SESSIONID=07fef086-c771-4ee5-a159-26c96ac8d8c3.qazUpAsqGu12i8G1fbf1pfzgcC0; request_token=GAwvUjAFISrru8duZUbWg9SR5iLf4gc9hT7XOZ72Lr3MUwqU; Path=/www/wwwroot/vaccine',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/index/index.html [ array (
+  0 => 'action',
+  1 => 'controller',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-07T00:18:41+08:00 ] 10.0.12.14 157.122.167.163 GET /admin/index.php/admin/index/main.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/index/main.html [运行时间：0.015604s][吞吐率：64.09req/s] [内存消耗：2,049.09kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; skin=0; clear_0.0.1=1; PHPSESSID=4bfa528d53e591ed529d56fa08c33caf; mapKey=%22%22; sites_path=/www/wwwroot; serverType=nginx; order=id%20desc; pro_end=-1; ltd_end=-1; memSize=3789; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; rank=list; record_paste=null; record_paste_type=null; backup_path=/www/backup; SESSIONID=07fef086-c771-4ee5-a159-26c96ac8d8c3.qazUpAsqGu12i8G1fbf1pfzgcC0; request_token=GAwvUjAFISrru8duZUbWg9SR5iLf4gc9hT7XOZ72Lr3MUwqU; Path=/www/wwwroot/vaccine',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ /www/wwwroot/ishop/home/admin/app/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/index/main.html [ array (
+  0 => 'action',
+  1 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File

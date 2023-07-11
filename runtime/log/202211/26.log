@@ -1,0 +1,259 @@
+---------------------------------------------------------------
+[ 2022-11-26T03:36:38+08:00 ] 10.0.12.14 164.155.105.97 POST /admin/index.php
+[ info ] 159.75.70.173:5004/admin/index.php [运行时间：0.015241s][吞吐率：65.61req/s] [内存消耗：2,068.94kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'connection' => 'close',
+  'content-length' => '55',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin\' or \'1\'=\'1',
+  'password' => 'any',
+  'login' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-26T03:36:38+08:00 ] 10.0.12.14 164.155.105.97 GET /admin/index.php/login
+[ info ] 159.75.70.173:5004/admin/index.php/login [运行时间：0.014551s][吞吐率：68.72req/s] [内存消耗：2,098.12kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-26T08:09:13+08:00 ] 10.0.12.14 164.155.105.97 POST /admin/?n=language&c=language_general&a=doExportPack
+[ info ] 159.75.70.173:5004/admin/?n=language&c=language_general&a=doExportPack [运行时间：0.014368s][吞吐率：69.60req/s] [内存消耗：2,069.32kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
+  'connection' => 'close',
+  'content-length' => '55',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  'n' => 'language',
+  'c' => 'language_general',
+  'a' => 'doExportPack',
+  'appno' => ' 1 union SELECT 98989*443131,1',
+  'editor' => 'cn',
+  'site' => 'web',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-26T08:09:13+08:00 ] 10.0.12.14 164.155.105.97 GET /admin/index.php/login
+[ info ] 159.75.70.173:5004/admin/index.php/login [运行时间：0.013882s][吞吐率：72.04req/s] [内存消耗：2,098.40kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://159.75.70.173:5004/admin/?n=language&c=language_general&a=doExportPack',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-26T08:47:25+08:00 ] 10.0.12.14 164.155.105.97 GET /admin/?n=product&c=product_admin&a=dopara&app_type=shop&id=1%20union%20SELECT%201,2,3,25367*75643,5,6,7%20limit%205,1%20%23
+[ info ] 159.75.70.173:5004/admin/?n=product&c=product_admin&a=dopara&app_type=shop&id=1%20union%20SELECT%201,2,3,25367*75643,5,6,7%20limit%205,1%20%23 [运行时间：0.013532s][吞吐率：73.90req/s] [内存消耗：2,070.34kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-language' => 'en',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'n' => 'product',
+  'c' => 'product_admin',
+  'a' => 'dopara',
+  'app_type' => 'shop',
+  'id' => '1 union SELECT 1,2,3,25367*75643,5,6,7 limit 5,1 #',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-26T08:47:25+08:00 ] 10.0.12.14 164.155.105.97 GET /admin/index.php/login
+[ info ] 159.75.70.173:5004/admin/index.php/login [运行时间：0.015019s][吞吐率：66.58req/s] [内存消耗：2,098.82kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'en',
+  'referer' => 'http://159.75.70.173:5004/admin/?n=product&c=product_admin&a=dopara&app_type=shop&id=1%20union%20SELECT%201,2,3,25367*75643,5,6,7%20limit%205,1%20%23',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-26T10:20:22+08:00 ] 10.0.12.14 164.155.105.97 GET /admin/index.php
+[ info ] 159.75.70.173:5004/admin/index.php [运行时间：0.013629s][吞吐率：73.37req/s] [内存消耗：2,068.18kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36',
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-language' => 'en',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

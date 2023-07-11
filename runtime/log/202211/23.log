@@ -1,0 +1,781 @@
+---------------------------------------------------------------
+[ 2022-11-23T11:16:44+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/
+[ info ] 159.75.70.173:5004/admin/ [运行时间：0.044370s][吞吐率：22.54req/s] [内存消耗：2,072.02kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:16:44+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/login
+[ info ] 159.75.70.173:5004/admin/index.php/login [运行时间：0.019635s][吞吐率：50.93req/s] [内存消耗：2,101.48kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:16:44+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/captcha.html
+[ info ] 159.75.70.173:5004/admin/index.php/captcha.html [运行时间：0.031633s][吞吐率：31.61req/s] [内存消耗：1,711.94kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/ishop/home/admin/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:16:54+08:00 ] 10.0.12.14 183.14.30.147 POST /admin/index.php/login.html
+[ info ] 159.75.70.173:5004/admin/index.php/login.html [运行时间：0.046867s][吞吐率：21.34req/s] [内存消耗：3,639.80kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://159.75.70.173:5004',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => '6qvu',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_admin` [ RunTime:0.003510s ]
+[ sql ] [ SQL ] SELECT * FROM `xgj_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000354s ]
+[ error ] [8]未定义数组索引: avatar[/www/wwwroot/ishop/home/admin/app/admin/model/Admin.php:12]
+---------------------------------------------------------------
+[ 2022-11-23T11:16:55+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/index.html [运行时间：0.017328s][吞吐率：57.71req/s] [内存消耗：2,133.70kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/index/index.html [ array (
+  0 => 'action',
+  1 => 'controller',
+  2 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:16:55+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/admin/index/main.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/index/main.html [运行时间：0.015344s][吞吐率：65.17req/s] [内存消耗：2,049.18kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ /www/wwwroot/ishop/home/admin/app/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/index/main.html [ array (
+  0 => 'action',
+  1 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:16:57+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/admin/Product/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/Product/index.html [运行时间：0.024572s][吞吐率：40.70req/s] [内存消耗：3,150.09kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/product/index.html [ array (
+  0 => 'action',
+  1 => 'controller',
+  2 => 'productTypeList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_product_type` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `xgj_product_type` ORDER BY `sort` [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2022-11-23T11:16:57+08:00 ] 10.0.12.14 183.14.30.147 POST /admin/index.php/admin/product/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/product/index.html [运行时间：0.026957s][吞吐率：37.10req/s] [内存消耗：3,279.27kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://159.75.70.173:5004',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/admin/Product/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_product` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `xgj_product` `p` LEFT JOIN `xgj_product_type` `pt` ON `p`.`type_id`=`pt`.`id` LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT `p`.*,pt.name as typename FROM `xgj_product` `p` LEFT JOIN `xgj_product_type` `pt` ON `p`.`type_id`=`pt`.`id` ORDER BY `p`.`sort` LIMIT 0,20 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2022-11-23T11:16:58+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/admin/Product/type.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/Product/type.html [运行时间：0.015216s][吞吐率：65.72req/s] [内存消耗：2,175.23kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Product',
+    2 => 'type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->type[ /www/wwwroot/ishop/home/admin/app/admin/controller/Product.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/product/type.html [ array (
+  0 => 'action',
+  1 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:16:58+08:00 ] 10.0.12.14 183.14.30.147 POST /admin/index.php/admin/product/type.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/product/type.html [运行时间：0.020480s][吞吐率：48.83req/s] [内存消耗：3,079.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://159.75.70.173:5004',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/admin/Product/type.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->type[ /www/wwwroot/ishop/home/admin/app/admin/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_product_type` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `xgj_product_type` WHERE  `name` LIKE '%%' ORDER BY `sort` [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2022-11-23T11:17:00+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/admin/Users/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/Users/index.html [运行时间：0.015998s][吞吐率：62.51req/s] [内存消耗：2,134.72kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Users->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Users.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/users/index.html [ array (
+  0 => 'action',
+  1 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:17:00+08:00 ] 10.0.12.14 183.14.30.147 POST /admin/index.php/admin/users/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/users/index.html [运行时间：0.026161s][吞吐率：38.22req/s] [内存消耗：3,211.86kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://159.75.70.173:5004',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/admin/Users/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Users->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001050s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_users` [ RunTime:0.001750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `xgj_users` `u` WHERE  ( `u`.`mobile` LIKE '%%' OR `u`.`username` LIKE '%%' ) LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `u`.* FROM `xgj_users` `u` WHERE  ( `u`.`mobile` LIKE '%%' OR `u`.`username` LIKE '%%' ) ORDER BY u.id desc LIMIT 0,20 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2022-11-23T11:17:01+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/admin/Message/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/Message/index.html [运行时间：0.017118s][吞吐率：58.42req/s] [内存消耗：2,134.55kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Message->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Message.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/message/index.html [ array (
+  0 => 'action',
+  1 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:17:02+08:00 ] 10.0.12.14 183.14.30.147 POST /admin/index.php/admin/message/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/message/index.html [运行时间：0.022904s][吞吐率：43.66req/s] [内存消耗：3,207.97kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://159.75.70.173:5004',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/admin/Message/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Message->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_message` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `xgj_message` WHERE  `content` LIKE '%%' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `xgj_message` WHERE  `content` LIKE '%%' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2022-11-23T11:17:13+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/admin/Comment/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/Comment/index.html [运行时间：0.017938s][吞吐率：55.75req/s] [内存消耗：2,131.09kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Comment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Comment.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/comment/index.html [ array (
+  0 => 'action',
+  1 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:17:13+08:00 ] 10.0.12.14 183.14.30.147 POST /admin/index.php/admin/comment/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/comment/index.html [运行时间：0.023892s][吞吐率：41.86req/s] [内存消耗：3,209.58kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://159.75.70.173:5004',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/admin/Comment/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Comment->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Comment.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_order_comment` [ RunTime:0.002038s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `xgj_order_comment` `c` LEFT JOIN `xgj_users` `u` ON `c`.`user_id`=`u`.`id` WHERE  `c`.`comment` LIKE '%%' LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT `c`.*,`u`.`username` FROM `xgj_order_comment` `c` LEFT JOIN `xgj_users` `u` ON `c`.`user_id`=`u`.`id` WHERE  `c`.`comment` LIKE '%%' ORDER BY c.id desc LIMIT 0,10 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2022-11-23T11:17:14+08:00 ] 10.0.12.14 183.14.30.147 GET /admin/index.php/admin/Order/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/Order/index.html [运行时间：0.015792s][吞吐率：63.32req/s] [内存消耗：2,132.21kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Order->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Order.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/order/index.html [ array (
+  0 => 'action',
+  1 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-11-23T11:17:14+08:00 ] 10.0.12.14 183.14.30.147 POST /admin/index.php/admin/order/index.html
+[ info ] 159.75.70.173:5004/admin/index.php/admin/order/index.html [运行时间：0.032790s][吞吐率：30.50req/s] [内存消耗：3,224.41kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://159.75.70.173:5004',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/admin/Order/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'skin=0; a1b3c212cd9d43cb7c39539e5ede3e11=fc7b4685-e27e-498c-9b3b-222c1cc90c91.aaH_QMBp_HuLZ9d-gWRBAoM6FJI; request_token=dzrzg2scIlU4o9xaxNp0jmvdtbMdRdHzCk9ZKGhN6SsUwzV1; order=id%20desc; serverType=nginx; pro_end=-1; ltd_end=-1; memSize=3788; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; sites_path=/www/wwwroot; site_model=php; PHPSESSID=8odgoskusvt25e0g6f5s3ocpm5; rank=list; file_recycle_status=true; db_page_model=mysql; backup_path=/www/backup; Path=/www/wwwroot/ishop',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Order->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:dbname=ishop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xgj_order` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `xgj_order` `o` LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `xgj_order` `o` ORDER BY id desc LIMIT 0,20 [ RunTime:0.001013s ]

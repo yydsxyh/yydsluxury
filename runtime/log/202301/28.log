@@ -1,0 +1,115 @@
+---------------------------------------------------------------
+[ 2023-01-28T10:54:55+08:00 ] 10.0.12.14 223.73.77.20 GET /admin/
+[ info ] 159.75.70.173:5004/admin/ [运行时间：0.042546s][吞吐率：23.50req/s] [内存消耗：2,069.84kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ma7sqsh1533kihli9qklhhdfv6; site_model=php; memSize=3788; order=id%20desc; serverType=nginx; sites_path=/www/wwwroot; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; ltd_end=-1; pro_end=-1; a1b3c212cd9d43cb7c39539e5ede3e11=9a11cfae-088e-488c-839c-02a659c5c6ef.y1tb4pt-fyYPqQMg4SIxB93VIHk',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-28T10:54:56+08:00 ] 10.0.12.14 223.73.77.20 GET /admin/index.php/login
+[ info ] 159.75.70.173:5004/admin/index.php/login [运行时间：0.020687s][吞吐率：48.34req/s] [内存消耗：2,099.68kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ma7sqsh1533kihli9qklhhdfv6; site_model=php; memSize=3788; order=id%20desc; serverType=nginx; sites_path=/www/wwwroot; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; ltd_end=-1; pro_end=-1; a1b3c212cd9d43cb7c39539e5ede3e11=9a11cfae-088e-488c-839c-02a659c5c6ef.y1tb4pt-fyYPqQMg4SIxB93VIHk',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ishop/home/admin/app/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/ishop/home/admin/app/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-28T10:54:56+08:00 ] 10.0.12.14 223.73.77.20 GET /admin/index.php/captcha.html
+[ info ] 159.75.70.173:5004/admin/index.php/captcha.html [运行时间：0.026168s][吞吐率：38.21req/s] [内存消耗：1,710.33kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/ishop/home/admin/think/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '159.75.70.173:5004',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=ma7sqsh1533kihli9qklhhdfv6; site_model=php; memSize=3788; order=id%20desc; serverType=nginx; sites_path=/www/wwwroot; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22137****3439%22%7D%7D; ltd_end=-1; pro_end=-1; a1b3c212cd9d43cb7c39539e5ede3e11=9a11cfae-088e-488c-839c-02a659c5c6ef.y1tb4pt-fyYPqQMg4SIxB93VIHk',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://159.75.70.173:5004/admin/index.php/login',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/ishop/home/admin/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
