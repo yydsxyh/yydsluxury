@@ -1,0 +1,513 @@
+/*@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);*/
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Poppins, sans-serif
+}
+
+.card {
+        position: absolute;
+        height: 200px
+}
+
+.card,
+.card1 {
+        margin-top: 5%;
+        width: 350px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0, 0, 0, .15);
+        transition: .5s
+}
+
+.card1 {
+        position: relative;
+        margin-left: 8%;
+        height: 190px
+}
+
+.card1:hover,
+.card:hover {
+        height: 450px
+}
+
+.imgBx {
+        border-radius: 80%;
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 150px;
+        background: #fff;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, .35);
+        overflow: hidden;
+        transition: .5s
+}
+
+.card1:hover .imgBx,
+.card:hover .imgBx {
+        width: 250px;
+        height: 250px
+}
+
+.imgBx img {
+        top: 0;
+        left: 0;
+        -o-object-fit: cover;
+        object-fit: cover
+}
+
+.card .content,
+.imgBx img {
+        position: absolute;
+        width: 100%;
+        height: 100%
+}
+
+.card .content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden
+}
+
+.card .content .details {
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+        transition: .5s;
+        transform: translateY(150px)
+}
+
+.card:hover .content .details {
+        transform: translateY(0)
+}
+
+.card .content .details h2 {
+        font-size: 1.25em;
+        font-weight: 600;
+        color: #555;
+        line-height: 1.2em
+}
+
+.card .content .details h2 span {
+        font-size: .75em;
+        font-weight: 500;
+        opacity: .5
+}
+
+.card .content .details .data {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0
+}
+
+.card .content .details .data h3 {
+        font-size: 1em;
+        color: #555;
+        line-height: 1.2em;
+        font-weight: 600
+}
+
+.card .content .details .data h3 span {
+        font-size: .85em;
+        font-weight: 400;
+        opacity: .5
+}
+
+.card .content .details .actionBtn {
+        display: flex;
+        justify-content: space-between
+}
+
+.card .content .details .actionBtn button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        font-weight: 500;
+        background: #ff5f95;
+        color: #fff;
+        cursor: pointer
+}
+
+.card .content .details .actionBtn button:nth-child(2) {
+        border: 1px solid #999;
+        color: #999;
+        background: #fff
+}
+
+.card1 .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden
+}
+
+.card1 .content .details {
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+        transition: .5s;
+        transform: translateY(150px)
+}
+
+.card1:hover .content .details {
+        transform: translateY(0)
+}
+
+.card1 .content .details h2 {
+        font-size: 1.25em;
+        font-weight: 600;
+        color: #555;
+        line-height: 1.2em
+}
+
+.card1 .content .details h2 span {
+        font-size: .75em;
+        font-weight: 500;
+        opacity: .5
+}
+
+.card1 .content .details .data {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0
+}
+
+.card1 .content .details .data h3 {
+        font-size: 1em;
+        color: #555;
+        line-height: 1.2em;
+        font-weight: 600
+}
+
+.card1 .content .details .data h3 span {
+        font-size: .85em;
+        font-weight: 400;
+        opacity: .5
+}
+
+.card1 .content .details .actionBtn {
+        display: flex;
+        justify-content: space-between
+}
+
+.card1 .content .details .actionBtn button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        font-weight: 500;
+        background: #ff5f95;
+        color: #fff;
+        cursor: pointer
+}
+
+.card1 .content .details .actionBtn button:nth-child(2) {
+        border: 1px solid #999;
+        color: #999;
+        background: #fff
+}
+
+span {
+        line-height: 20px
+}
+
+p {
+        margin-top: 4px;
+        margin-bottom: 0;
+        line-height: 22px
+}
+
+ .ant-table {
+        background-color: hsla(0, 0%, 100%, .3) !important;
+        font-size: 18px
+}
+
+ .ant-table-thead>tr>th {
+        font-size: 25px
+}
+
+ .ant-table-thead>tr>th:first-child {
+        border-top-left-radius: 15px !important;
+        border-bottom-left-radius: 15px
+}
+
+ .ant-table-thead>tr>th:last-child {
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 15px
+}
+
+.tabgd {
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 1.5%
+}
+
+.tabgdPhone {
+        margin-top: 1.5%
+}
+
+ .ant-select {
+        width: 100%;
+        height: 200%;
+        margin-top: 1%;
+        -webkit-text-fill-color: #333;
+        -webkit-opacity: 1;
+        opacity: 1;
+        font-size: 20px
+}
+
+ .ant-table .ant-table-tbody>tr :first-child {
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important
+}
+
+ .ant-table .ant-table-tbody>tr :last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px
+}
+
+/*!*background-color: white !important;*!*/
+/*!*background-color: rgba(255, 192, 203, 0.1);*!*/
+/*!*background-color: #bae7ff !important;*!*/
+/*!*background-color: pink;*!*/
+ .blue td:first-child {
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important
+}
+
+ .blue td:last-child {
+        border-top-right-radius: 10px !important;
+        border-bottom-right-radius: 10px !important
+}
+
+ .ant-table-tbody>tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td {
+        background: #f48fb1 !important;
+        cursor: default
+}
+
+ .fl2 {
+        width: 100%;
+        border-radius: 130px;
+        margin-top: 10%
+}
+
+.fl22 {
+        width: 80%;
+        border-radius: 130px;
+        display: none;
+        margin-top: 10%
+}
+
+.fl222 {
+        border-radius: 130px;
+        display: block
+}
+
+ .fl-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-family: inherit;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .4px;
+        color: #7e97b8;
+        background-color: #e0e8ef;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: hsla(0, 0%, 100%, .333);
+        border-radius: 40px 40px 40px 40px;
+        padding: 16px 24px 16px 28px;
+        transform: translate(0) rotate(0deg);
+        transition: .2s;
+        box-shadow: -4px -2px 16px 0 #fff, 4px 2px 16px 0 rgba(95, 157, 231, .48);
+        width: 100%
+}
+
+.ant-btn:focus,
+ .ant-btn:hover {
+        color: #516d91;
+        background-color: #e5edf5;
+        box-shadow: -2px -1px 8px 0 #fff, 2px 1px 8px 0 rgba(95, 157, 231, .48)
+}
+
+.ant-btn:active {
+        box-shadow: none
+}
+
+.class1 {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 1px 1px 1px
+}
+
+.class1,
+.class2 {
+        background-color: rgba(255, 192, 203, .7);
+        border-radius: 10px;
+        margin-top: 1%
+}
+
+.class2 {
+        margin-left: 20%;
+        margin-right: 20%
+}
+
+.zbImgSmall {
+        display: none;
+        height: 70px;
+        margin-left: 5px;
+        margin-top: -30px
+}
+
+.zbImgBig {
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 25%
+}
+
+.zbSpanSmall {
+        display: none;
+        font-color: white;
+        font-size: 5px;
+        font-weight: 700
+}
+
+.zbSpanBig {
+        display: block;
+        font-color: white;
+        font-size: 20px;
+        font-weight: 700
+}
+
+.zbHeadSmall {
+        height: 200px;
+        weight: 200px;
+        border-radius: 80%;
+        margin-left: 30%
+}
+
+.zbHeadBig {
+        height: 300px;
+        weight: 300px;
+        border-radius: 80%;
+        margin-left: 25%
+}
+
+.xySongSmall {
+        font-color: white;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px -100px;
+        letter-spacing: 3px
+}
+
+.xySongBig {
+        font-color: white;
+        font-size: 40px;
+        font-weight: 700
+}
+
+.zbDiv {
+        margin-top: 10%
+}
+
+@font-face {
+        font-family: Material Icons;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2")
+}
+
+.button1 {
+        padding: 15px 25px;
+        border: unset;
+        width: 100px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        overflow: hidden
+}
+
+.button1,
+.button1:before {
+        border-radius: 15px;
+        box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, .27);
+        transition: all .25s
+}
+
+.button1:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        background-color: #212121;
+        z-index: -1
+}
+
+.button1:hover {
+        color: pink
+}
+
+.button1:hover:before {
+        width: 100%
+}
+
+#app {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        title: "111";
+        margin: 0;
+        padding: 0
+}
+
+#building::before {
+        /* background: url(../img/bg.png);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        overflow: auto; */
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        opacity: 0.4; /* 设置图像透明度 */
+}
+
+#building {
+        position: relative;
+}
+
+
+#search{
+    width: 100%;
+    border-radius: 7px;
+    height: 40px;
+    padding: 0 15px;
+    border: none;
+}

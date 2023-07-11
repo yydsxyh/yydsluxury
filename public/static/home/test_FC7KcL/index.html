@@ -1,0 +1,204 @@
+<html lang="cn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">
+<style>
+.btn-primary {
+    background-image: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+</style>
+<title>Top Up Account Balance</title>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="content" class="col-sm-9" style="margin-top:30px">
+                <div class="tab-content">
+                    <form method="post" enctype="multipart/form-data" class="form-horizontal">
+                        <fieldset>
+                            <input type="hidden" name="topup_code" value="topup_bank_transfer">
+                            <input type="hidden" name="bank_id" value="">
+                            <legend>Top Up Account Balance</legend>
+                            <div class="form-group required">
+                                <label class="col-sm-3 control-label" for="input-email">My Registered Email</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="email" value="" placeholder="My Registered Email" id="input-email" class="form-control">
+                                    Can find it in “My Order” > “My Info” 
+                                </div>
+                        
+                            </div>
+                            <div class="form-group required">
+                                <label class="col-sm-3 control-label" for="input-pay_to">Pay To</label>
+                                <div class="col-sm-9">
+                                    <select name="pay_to" id="pay_to" class="form-control">
+                                        <option value=""> --- Please Select --- </option>
+                                        <option value="13">PublicBank 6466329711 WongYuHang</option>
+                                        <option value="17">Touch n Go 0126673726 WongYuHang</option>
+                                        <option value="15">DuitNow 180489609731 WongYuHang</option>
+                                        <option value="1">Paypal @yydspersonal</option>
+                                        <option value="10">Cryptocurrency</option>
+                                    </select>
+                                    <div class="img-bank"></div>
+                                </div>
+                            </div>
+                            <div class="form-group required">
+                                <label class="col-sm-3 control-label" for="input-account_name">My Bank Account Name</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="account_name" value="" placeholder="My Bank Account Name" id="input-account_name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group required">
+                                <label class="col-sm-3 control-label" for="input-account_no">My Bank Account No.</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="account_no" value="" placeholder="My Bank Account No." id="input-account_no" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label" for="input-reference_number">Reference Number</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="reference_number" value="" placeholder="Reference Number" id="input-reference_number" class="form-control">
+                                    <input type="hidden" name="reference_number_required" value="0">
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="form-group required">
+                                <label class="col-sm-3 control-label" for="input-amount">Amount <b><span id="min_amount"></span></b> </label>
+                                <div class="col-sm-5">
+                                    <div class="input-group"><span id="bank_currency" class="input-group-addon">RM</span>
+                                        <input type="text" name="amount" value="" placeholder="Amount" id="input-amount" class="form-control" autocomplete="off">
+                                    </div>
+                                    Amount converted <span id="base_currency_amount"> 0 </span> Points 
+                                </div>
+                        
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label" for="input-remark">Add Remark About Your Top-up</label>
+                                <div class="col-sm-9">
+                                    <textarea name="remark" rows="8" style="width: 100%;" placeholder="Add Remark About Your Top-up"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group required">
+                                <label class="col-sm-3 control-label" for="input-date-paid">Date Paid</label>
+                                <div class="col-sm-9">
+                                    <div class="input-group date">
+                                        <input type="text" name="date_paid" value="2023-06-26" placeholder="Date Paid" id="input_date_paid" data-date-format="YYYY-MM-DD" class="form-control">
+                                        <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group required">
+                                <label class="col-sm-3 control-label" for="input-file">Receipt</label>
+                                <div class="col-sm-9">
+                                    <button type="button" id="button-upload" data-loading-text="Loading..." class="btn btn-default btn-block"><i class="fa fa-upload"></i> Upload Receipt</button>
+                                    <input type="hidden" name="file" value="" id="file">
+                                    <input type="hidden" name="receipt_required" value="1">
+                                </div>
+                        
+                            </div>
+                        </fieldset>
+                        <div class="buttons clearfix">
+                            <div class="pull-left"><a href="https://zb-line.com/index.php?route=account/account" class="btn btn-default">Back</a></div>
+                            <div class="pull-right">
+                                <input type="button" id="button-confirm" value="Submit" class="btn btn-primary">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/moment.js" type="text/javascript"></script>
+<script src="js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $('#input-amount').on("input", function(){
+        $('#base_currency_amount').html($(this).val())
+    })
+    $('.date').datetimepicker({
+        pickTime: false
+    });
+
+    $('.datetime').datetimepicker({
+        pickDate: true,
+        pickTime: true
+    });
+
+    $('.time').datetimepicker({
+        pickDate: false
+    });
+</script>
+<script type="text/javascript"><!--
+    $('button[id^=\'button-upload\']').on('click', function() {
+        var node = this;
+
+        $('#form-upload').remove();
+
+        $('body').prepend('<form enctype="multipart/form-data" id="form-upload" style="display: none;"><input type="file" name="file" /></form>');
+
+        $('#form-upload input[name=\'file\']').trigger('click');
+
+        if(typeof timer !='undefined'){
+            clearInterval(timer);
+        }
+
+        timer = setInterval(function() {
+            if ($('#form-upload input[name=\'file\']').val() != '') {
+                clearInterval(timer);
+                /*
+                $.ajax({
+                    url: 'index.php?route=tool/upload',
+                    type: 'post',
+                    dataType: 'json',
+                    data: new FormData($('#form-upload')[0]),
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    beforeSend: function() {
+                        $(node).button('loading');
+
+                    },
+                    complete: function() {
+                        $(node).button('reset');
+
+                    },
+                    success: function(json) {
+                        $('.text-danger').remove();
+
+                        if (json['error']) {
+                            $(node).parent().find('input:first').after('<div class="text-danger">' + json['error'] + '</div>');
+
+                        }
+
+                        if (json['success']) {
+                            //alert('Receipt uploaded, please submit your top-up');
+                            $('.container-upload-success').hide();
+                            $(node).parent().find('button').after('<b class="container-upload-success">Receipt uploaded, please submit your top-up</b>');
+                            $(node).parent().find('input[name=file]').attr('value', json['code']);
+                            $(node).parent().find('button').parent().find('img').hide();
+                            if (json['preview']) {
+                                $(node).parent().find('button').after('<img src="' + json['preview'] + '" width="40" style="margin:2px; display: block"/>');
+                            }
+                        }
+                    },
+                    error: function(xhr, ajaxOptions, thrownError) {
+                        //alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                        $(node).parent().find('input:first').after('<div class="text-danger">' + thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText + '</div>');
+
+                    }
+                });*/
+            }
+        }, 500);
+    });
+//--></script>
+</html>
